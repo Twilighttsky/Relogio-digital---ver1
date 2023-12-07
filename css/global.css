@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html {
+    background: url('https://segredosdomundo.r7.com/wp-content/uploads/2020/07/relogios-como-funcionam-origem-tipos-e-evolucao.jpg') center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: auto;
+    font-family: 'Roboto Mono';
+   
+}
+
+
+.titulo {
+    background-color: rgba(124, 125, 126, 0.432);
+    width: 50rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 3.5rem;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 3.5rem;
+}
+
+
+#box-timer {
+    display: flex;
+    background-color: brown;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 10%;
+    height: 17rem;
+    border-radius: 2%;
+    background-color: rgba(88, 88, 88, 0.158);
+    width: 80vw;
+}
+
+
+section {
+    display: flex;
+    background-color: rgb(8, 8, 8);
+    height: 20vh;
+    width: 23vw;
+    align-items: center;
+    justify-content: center;
+    border: .1rem solid;
+    border-radius: 4%;
+    flex-direction: column;
+}
+
+span{
+    color: white;
+    font-size: 3rem;
+    
+}
+
+.letras {
+    font-size: 1.5rem;
+    text-transform: capitalize;
+}
